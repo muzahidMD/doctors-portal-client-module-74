@@ -15,10 +15,10 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />}></Route>
         <Route path='/about' element={<About />}></Route>
-        <Route path='/about' element={<Appointment />}></Route>
-        <Route path='/about' element={<Reviews />}></Route>
-        <Route path='/about' element={<ContactUs />}></Route>
-        <Route path='/about' element={<Login />}></Route>
+        <Route path='/appointment' element={<Appointment />}></Route>
+        <Route path='/reviews' element={<Reviews />}></Route>
+        <Route path='/contact-us' element={<ContactUs />}></Route>
+        <Route path='/login' element={<Login />}></Route>
       </Routes>
     </div>
   );
