@@ -2,12 +2,12 @@ import React from 'react';
 
 const Service = ({ service }) => {
     return (
-        <div class="card lg:max-w-lg bg-base-100 shadow-xl">
-            <figure class="px-10 pt-10">
-                <img className='w-20' src={service.img} alt="Shoes" class="rounded-xl" />
+        <div className="card lg:max-w-lg bg-base-100 shadow-xl">
+            <figure className="px-10 pt-10">
+                <img className='w-20 rounded-xl' src={service.img} alt="" />
             </figure>
-            <div class="card-body items-center text-center">
-                <h2 class="card-title text-xl">{service.nsme}</h2>
+            <div className="card-body items-center text-center">
+                <h2 className="card-title text-xl">{service.name}</h2>
                 <p>{service.description}</p>
             </div>
         </div>
