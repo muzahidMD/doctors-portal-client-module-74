@@ -4,7 +4,7 @@ import appointment from '../../assets/images/appointment.png'
 const ContactForm = () => {
     return (
         <section style={{ background: `url(${appointment})` }} className='py-16 '>
-            <div className='w-1/2 mx-auto text-center'>
+            <div className='w-3/4 lg:w-1/2 mx-auto text-center'>
                 <div className='mb-10'>
                     <h3 className='text-xl text-secondary '>Contact Us</h3>
                     <h2 className='text-4xl text-white'>Stay connected with us</h2>
