@@ -12,7 +12,7 @@ const ContactForm = () => {
                 <form className=' grid grid-cols-1 gap-4 justify-items-center'>
                     <input type="email" placeholder="Email" className="input input-bordered input-sm w-full max-w-md" />
                     <input type="text" placeholder="Type here" className="input input-bordered input-sm w-full max-w-md" />
-                    <textarea className="textarea textarea-bordered w-[63%] h-24" placeholder="Bio"></textarea>
+                    <textarea className="textarea textarea-bordered w-full h-24 max-w-md" placeholder="Bio"></textarea>
                     <input type="submit" value="Submit" placeholder="Type here" className="input input-bordered  w-[15%] max-w-xs text-white text-sm  font-bold bg-gradient-to-r from-secondary to-primary" />
                 </form>
             </div>
