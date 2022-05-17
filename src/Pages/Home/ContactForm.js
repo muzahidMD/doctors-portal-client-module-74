@@ -13,7 +13,7 @@ const ContactForm = () => {
                     <input type="email" placeholder="Email" className="input input-bordered input-sm w-full max-w-md" />
                     <input type="text" placeholder="Type here" className="input input-bordered input-sm w-full max-w-md" />
                     <textarea className="textarea textarea-bordered w-full h-24 max-w-md" placeholder="Bio"></textarea>
-                    <input type="submit" value="Submit" placeholder="Type here" className="input input-bordered  w-[15%] max-w-xs text-white text-sm  font-bold bg-gradient-to-r from-secondary to-primary" />
+                    <input type="submit" value="Submit" placeholder="Type here" className="input input-bordered  w-1/2 lg:w-1/4 max-w-xs text-white text-sm  font-bold bg-gradient-to-r from-secondary to-primary" />
                 </form>
             </div>
         </section>
