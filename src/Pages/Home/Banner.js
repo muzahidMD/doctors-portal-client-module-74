@@ -5,7 +5,7 @@ import PrimaryButton from '../Shared/PrimaryButton';
 
 const Banner = () => {
     return (
-        <div className=" flex min-h-screen px-12">
+        <div className="flex min-h-screen px-12">
             <div style={{ backgroundImage: `url(${bg})` }} className="hero-content flex-col lg:flex-row-reverse bg-local bg-cover" >
                 <img src={chair} className="max-w-lg w-96 lg:w-full rounded-lg shadow-2xl" alt="" />
                 <div>
