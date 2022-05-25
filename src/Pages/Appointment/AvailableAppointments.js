@@ -25,7 +25,6 @@ const AvailableAppointments = ({ date }) => {
         return <Loading></Loading>;
     }
 
-
     // useEffect(() => {
     //     fetch(`http://localhost:5000/available?date=${formattedDate}`)
     //         .then(res => res.json())
